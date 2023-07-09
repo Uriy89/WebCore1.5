@@ -1,0 +1,47 @@
+@import "mobile.css";
+@import "services_software.css";
+@import "services.css";
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("../fonts/TTLakes-Light.ttf") format("ttf"),
+        url("../fonts/TTLakes-Light.woff") format("woff");
+    
+}
+
+body {
+    font-family: "TT Lakes";
+    line-height: 40px;
+}
+
+body, a, li, ol, ul, menu,
+section, aside, h1, pre, p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+a, li, ol, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+

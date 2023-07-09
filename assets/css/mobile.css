@@ -1,0 +1,78 @@
+@media screen and (max-width: 320px) {
+    
+    .title {
+        background-color: #ffffff;
+        height: 80px;
+    }
+
+    .brands {
+        background-color: #f8f8f8f8;
+    }
+
+    .swiper-wrapper {
+        width: 100%;
+
+    }
+
+    .title h1 {
+        text-transform: uppercase;
+        word-wrap: break-word;
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 16px;
+        line-height: 24px;
+    }
+
+    .brands-slider {
+        height: 120px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .brands__btn-more {
+        display: none;
+    }
+
+    .brand {
+        width: 224px!important;
+        height: 72px!important;
+        background-color: #ffffff;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        margin-left: 16px;
+        margin-right: 0!important;
+        margin-top: 16px;
+    }
+    
+    .brand__photo {
+        display: block;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .brand__photo-hp,
+    .brand__photo-apple {
+        margin-top: 10px;
+    }
+
+     .brand__btn {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/go.svg");
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: #B5B6BC;
+    }
+
+    span.swiper-pagination-bullet {
+        background: #9c9b9b;
+    }
+    
+}

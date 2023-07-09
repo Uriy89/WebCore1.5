@@ -1,0 +1,103 @@
+@media screen and (min-width: 321px) and (max-width: 1121px) {
+
+    .title {
+        background-color: #ffffff;
+        height: 56px;
+        
+    }
+
+    .title h1 {
+        text-transform: uppercase;
+        word-wrap: break-word;
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 16px;
+        line-height: 24px;
+    }
+
+    .brands {
+        background-color: #f8f8f8f8;
+    }
+
+    .brands-slider__wrapper {
+        max-height: 190px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        align-content: start;
+        width: 720px;
+    }
+
+    .brands-slider__wrapper-all {
+        height: auto;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        align-content: start;
+    }
+
+    .brand {
+        width: 224px!important;
+        height: 72px!important;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+
+    .brand__photo {
+        display: block;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .brand__photo-hp,
+    .brand__photo-apple {
+        margin-top: 10px;
+    }
+
+    .brand__btn {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/go.svg");
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+
+    .brands__btn-more {
+        margin-left: 12px;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    .brands__btn-more::before {
+        content: url("../images/expand.svg");
+        position: relative;
+        top: 5px;
+    }
+
+    .brands__btn-more--open {
+        margin-left: 12px;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    .brands__btn-more--open::before {
+        content: url("../images/expandUp.svg");
+        position: relative;
+        top: 5px;
+        transform: rotate(180deg);
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+}
